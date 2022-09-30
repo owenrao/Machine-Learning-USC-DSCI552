@@ -1,0 +1,266 @@
+{
+    "Parent_Node": "Occupied",
+    "Entropy": 0.8377027064941335,
+    "History": [
+        "Occupied"
+    ],
+    "Child_Node": [
+        {
+            "Node_name": "High",
+            "Node_info": {
+                "Parent_Node": "Location",
+                "Entropy": 0.0,
+                "History": [
+                    "Occupied",
+                    "Location"
+                ],
+                "Child_Node": [
+                    {
+                        "Node_name": "Talpiot",
+                        "Node_info": {
+                            "Termination": [
+                                "False"
+                            ]
+                        }
+                    },
+                    {
+                        "Node_name": "City-Center",
+                        "Node_info": {
+                            "Termination": [
+                                "True"
+                            ]
+                        }
+                    },
+                    {
+                        "Node_name": "German-Colony",
+                        "Node_info": {
+                            "Termination": [
+                                "False"
+                            ]
+                        }
+                    },
+                    {
+                        "Node_name": "Ein-Karem",
+                        "Node_info": {
+                            "Termination": []
+                        }
+                    },
+                    {
+                        "Node_name": "Mahane-Yehuda",
+                        "Node_info": {
+                            "Termination": [
+                                "True"
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "Node_name": "Moderate",
+            "Node_info": {
+                "Parent_Node": "Location",
+                "Entropy": 0.4444444444444444,
+                "History": [
+                    "Occupied",
+                    "Location"
+                ],
+                "Child_Node": [
+                    {
+                        "Node_name": "Talpiot",
+                        "Node_info": {
+                            "Parent_Node": "Price",
+                            "Entropy": 0.0,
+                            "History": [
+                                "Occupied",
+                                "Location",
+                                "Price"
+                            ],
+                            "Child_Node": [
+                                {
+                                    "Node_name": "Expensive",
+                                    "Node_info": {
+                                        "Termination": []
+                                    }
+                                },
+                                {
+                                    "Node_name": "Normal",
+                                    "Node_info": {
+                                        "Termination": [
+                                            "True"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "Node_name": "Cheap",
+                                    "Node_info": {
+                                        "Termination": [
+                                            "False"
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "Node_name": "City-Center",
+                        "Node_info": {
+                            "Termination": [
+                                "True"
+                            ]
+                        }
+                    },
+                    {
+                        "Node_name": "German-Colony",
+                        "Node_info": {
+                            "Parent_Node": "VIP",
+                            "Entropy": 0.0,
+                            "History": [
+                                "Occupied",
+                                "Location",
+                                "VIP"
+                            ],
+                            "Child_Node": [
+                                {
+                                    "Node_name": "No",
+                                    "Node_info": {
+                                        "Termination": [
+                                            "False"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "Node_name": "Yes",
+                                    "Node_info": {
+                                        "Termination": [
+                                            "True"
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "Node_name": "Ein-Karem",
+                        "Node_info": {
+                            "Termination": [
+                                "True"
+                            ]
+                        }
+                    },
+                    {
+                        "Node_name": "Mahane-Yehuda",
+                        "Node_info": {
+                            "Termination": [
+                                "True"
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "Node_name": "Low",
+            "Node_info": {
+                "Parent_Node": "Location",
+                "Entropy": 0.6792696431662097,
+                "History": [
+                    "Occupied",
+                    "Location"
+                ],
+                "Child_Node": [
+                    {
+                        "Node_name": "Talpiot",
+                        "Node_info": {
+                            "Termination": [
+                                "False"
+                            ]
+                        }
+                    },
+                    {
+                        "Node_name": "City-Center",
+                        "Node_info": {
+                            "Parent_Node": "Price",
+                            "Entropy": 0.6666666666666666,
+                            "History": [
+                                "Occupied",
+                                "Location",
+                                "Price"
+                            ],
+                            "Child_Node": [
+                                {
+                                    "Node_name": "Expensive",
+                                    "Node_info": {
+                                        "Termination": []
+                                    }
+                                },
+                                {
+                                    "Node_name": "Normal",
+                                    "Node_info": {}
+                                },
+                                {
+                                    "Node_name": "Cheap",
+                                    "Node_info": {
+                                        "Termination": [
+                                            "False"
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "Node_name": "German-Colony",
+                        "Node_info": {
+                            "Termination": []
+                        }
+                    },
+                    {
+                        "Node_name": "Ein-Karem",
+                        "Node_info": {
+                            "Parent_Node": "Price",
+                            "Entropy": 0.0,
+                            "History": [
+                                "Occupied",
+                                "Location",
+                                "Price"
+                            ],
+                            "Child_Node": [
+                                {
+                                    "Node_name": "Expensive",
+                                    "Node_info": {
+                                        "Termination": []
+                                    }
+                                },
+                                {
+                                    "Node_name": "Normal",
+                                    "Node_info": {
+                                        "Termination": [
+                                            "False"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "Node_name": "Cheap",
+                                    "Node_info": {
+                                        "Termination": [
+                                            "True"
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "Node_name": "Mahane-Yehuda",
+                        "Node_info": {
+                            "Termination": [
+                                "False"
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
